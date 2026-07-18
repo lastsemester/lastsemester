@@ -1,179 +1,145 @@
-# 🎮 Last Semester
+<div align="center">
 
-> Kumpulan resource, script, dan aset untuk pengembangan server **FiveM** — dibuat untuk mempercepat proses development dan mempermudah kolaborasi tim.
+<img src="https://avatars.githubusercontent.com/u/306572549?s=400&u=8d8b00a8a4df26b2267da611b13be660e495dd5b" width="140" alt="Last Semester Logo" />
 
-![Status](https://img.shields.io/badge/status-active-success)
-![FiveM](https://img.shields.io/badge/platform-FiveM-orange)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Language](https://img.shields.io/badge/lang-Lua%20%7C%20JS%20%7C%20HTML-lightgrey)
+# 🎓 Last Semester
 
----
+**FiveM Roleplay Server — Kehidupan Kampus, Perjuangan Akademik, dan Cerita yang Tak Pernah Usai**
 
-## 📖 Daftar Isi
+[![Repository](https://img.shields.io/badge/Repository-last--semester--fivem-1f2937?style=for-the-badge&logo=github)](https://github.com/lastsemester/last-semester-fivem)
+[![FiveM](https://img.shields.io/badge/Platform-FiveM-f97316?style=for-the-badge&logo=data:image/png;base64,&logoColor=white)](https://fivem.net)
+[![Lua](https://img.shields.io/badge/Lua-5.4-2c2d72?style=for-the-badge&logo=lua&logoColor=white)](https://www.lua.org)
+[![Roleplay](https://img.shields.io/badge/Genre-Roleplay-9333ea?style=for-the-badge)]()
+[![Status](https://img.shields.io/badge/Status-In%20Development-22c55e?style=for-the-badge)]()
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](#-lisensi)
 
-- [Tentang Project](#-tentang-project)
-- [Fitur](#-fitur)
-- [Struktur Folder](#-struktur-folder)
-- [Persyaratan](#-persyaratan)
-- [Instalasi](#-instalasi)
-- [Cara Penggunaan](#-cara-penggunaan)
-- [Daftar Resource](#-daftar-resource)
-- [Kontribusi](#-kontribusi)
-- [License](#-license)
-- [Credits](#-credits)
-- [Penutup](#-penutup)
+</div>
 
 ---
 
-## 🧩 Tentang Project
+## 📖 Deskripsi Singkat
 
-**Last Semester** adalah repository yang berisi kumpulan resource untuk server **FiveM**, mencakup script gameplay, antarmuka pengguna (NUI/UI panel), sistem manajemen server, dan berbagai aset pendukung lainnya. Project ini dibuat untuk mempermudah proses pengembangan server roleplay, baik untuk kebutuhan pribadi maupun kolaborasi tim.
-
-Repository ini dirancang agar mudah dipahami, dikembangkan, dan disesuaikan sesuai kebutuhan server masing-masing.
+**Last Semester** adalah repository resmi yang menjadi pusat pengembangan seluruh resource FiveM untuk server roleplay **Last Semester**. Di sini tersimpan script, asset, konfigurasi, antarmuka pengguna (UI), serta berbagai berkas pendukung lain yang dibutuhkan untuk membangun, memelihara, dan menjalankan server secara efisien dan terstruktur.
 
 ---
 
-## ✨ Fitur
+## 🏫 Tentang Last Semester
 
-- 🗂️ Kumpulan resource FiveM yang terorganisir dengan rapi
-- 🎨 Antarmuka (UI/NUI) modern dengan desain dark theme
-- ⚙️ Struktur kode yang mudah dibaca dan dikembangkan
-- 🌐 Mendukung konten berbahasa Indonesia
-- 🔧 Mudah dikonfigurasi dan diintegrasikan ke server FiveM
-- 📦 Update dan penambahan resource secara berkala
+> *"Setiap mahasiswa baru membawa cerita. Setiap semester menulis babnya sendiri."*
 
----
+**Last Semester** adalah server **FiveM Roleplay** yang mengangkat tema kehidupan pendidikan dan universitas — sebuah dunia di mana pemain tidak hanya bermain peran, tetapi benar-benar *menjalani* kehidupan kampus dari sudut pandang yang autentik. Pengembangan server ini dimulai pada **13 Juni 2026**, dengan visi menghadirkan simulasi roleplay yang jarang dieksplorasi di ekosistem FiveM: dunia akademik yang hidup dan penuh dinamika.
 
-## 📁 Struktur Folder
+Di Last Semester, setiap karakter memulai perjalanannya sebagai mahasiswa baru — canggung, penuh harap, dan siap beradaptasi dengan ritme kehidupan kampus. Dari ruang kelas yang menuntut fokus, tugas dan ujian yang menguji ketekunan, hingga organisasi mahasiswa yang membentuk jaringan sosial dan kepemimpinan, setiap keputusan membawa konsekuensi nyata terhadap arah cerita masing-masing pemain.
 
-Berikut contoh struktur folder pada repository ini:
+Namun kehidupan kampus bukan hanya tentang akademik. Di luar kelas, dunia sosial berjalan penuh warna: pertemanan yang terjalin di kantin, rivalitas antar organisasi, kisah cinta yang tumbuh di sudut taman kampus, hingga dinamika UKM dan komunitas yang membentuk identitas setiap mahasiswa. Semuanya dirancang untuk menciptakan pengalaman roleplay yang imersif, membumi, dan relevan dengan kehidupan nyata.
 
-```
-last-semester/
-├── resources/
-│   ├── ls-ui/              # Resource antarmuka (NUI)
-│   ├── ls-core/             # Script inti server
-│   └── ls-jobs/             # Sistem pekerjaan/job
-├── docs/
-│   └── DESIGN.md            # Dokumentasi sistem desain
-├── config/
-│   └── config.lua           # File konfigurasi utama
-├── README.md
-└── LICENSE
-```
-
-> 💡 Struktur di atas bersifat contoh dan dapat berbeda tergantung resource yang tersedia di dalam repository.
+Perjalanan setiap karakter berakhir pada satu tujuan besar: **kelulusan** — puncak dari seluruh perjuangan, relasi, dan keputusan yang telah diambil sepanjang masa perkuliahan. Last Semester bukan sekadar server roleplay, melainkan sebuah narasi panjang tentang tumbuh, berjuang, dan menemukan jati diri di tengah riuhnya kehidupan kampus.
 
 ---
 
-## 📋 Persyaratan
+## ✨ Fitur & Tujuan Repository
 
-Sebelum menggunakan resource pada repository ini, pastikan sudah menyiapkan:
+Repository ini dirancang sebagai pusat pengembangan yang rapi, modular, dan mudah dikelola untuk seluruh kebutuhan server Last Semester.
 
-| Kebutuhan | Keterangan |
+| Aspek | Deskripsi |
 |---|---|
-| **FXServer** | Versi terbaru (recommended build) |
-| **Framework** | ESX / QBCore / Standalone (tergantung resource) |
-| **Database** | MySQL / MariaDB (jika resource membutuhkan) |
-| **Dependencies** | Sesuai kebutuhan masing-masing resource |
+| 🧩 **Modular Resources** | Setiap sistem (akademik, sosial, ekonomi, dll.) dikembangkan sebagai resource terpisah agar mudah dipelihara |
+| 🎨 **Custom NUI/UI** | Antarmuka pengguna khas bertema kampus, dirancang modern dan intuitif |
+| 🗂️ **Konfigurasi Terpusat** | Pengaturan server, job, dan sistem tersimpan rapi dan terdokumentasi |
+| 🔄 **Version Control Rapi** | Struktur commit dan branching yang mendukung kolaborasi tim developer |
+| 🧑‍🎓 **Tema Edukasi Otentik** | Sistem roleplay yang secara khusus mensimulasikan kehidupan universitas |
+| 🚀 **Deployment Efisien** | Disusun agar proses instalasi dan maintenance server menjadi lebih cepat |
 
 ---
 
-## 🚀 Instalasi
+## 🗂️ Struktur Folder
 
-1. **Clone repository** ini ke folder `resources` server FiveM Anda:
+Berikut contoh struktur direktori pada repository ini:
+
+```
+last-semester-fivem/
+├── [academic]/              # Sistem perkuliahan, kelas, dan nilai
+│   ├── ls-classroom/
+│   └── ls-lecturer/
+├── [core]/                  # Resource inti server (framework, database, dll.)
+│   ├── ls-core/
+│   └── ls-multichar/
+├── [interface]/             # NUI, HUD, dan dashboard antarmuka
+│   ├── ls-nui-dashboard/
+│   └── ls-hud/
+├── [social]/                 # Organisasi kampus, komunitas, dan sistem sosial
+│   ├── ls-organization/
+│   └── ls-social/
+├── [maps]/                  # Custom map kampus dan fasilitas pendukung
+│   └── ls-campus-map/
+├── config/                  # Berkas konfigurasi umum server
+├── docs/                    # Dokumentasi teknis dan panduan developer
+└── README.md
+```
+
+> 📌 Struktur di atas bersifat contoh dan dapat berkembang mengikuti kebutuhan pengembangan server.
+
+---
+
+## ⚙️ Cara Penggunaan
+
+### Prasyarat
+- Server **FiveM** (build terbaru direkomendasikan)
+- Framework dasar yang kompatibel (ESX/QBCore atau custom framework Last Semester)
+- Database MySQL (disarankan menggunakan `oxmysql`)
+
+### Instalasi
+
+1. **Clone repository ini** ke dalam folder `resources` server FiveM Anda:
    ```bash
-   git clone https://github.com/username/last-semester.git
+   git clone https://github.com/lastsemester/last-semester-fivem.git
    ```
 
-2. **Pindahkan** folder resource yang dibutuhkan ke dalam direktori `resources` server.
+2. **Pindahkan atau salin** setiap resource ke direktori `resources` sesuai kategori masing-masing.
 
-3. **Tambahkan resource** ke dalam file `server.cfg`:
+3. **Tambahkan resource** ke dalam `server.cfg`:
    ```cfg
-   ensure ls-ui
    ensure ls-core
-   ensure ls-jobs
+   ensure ls-classroom
+   ensure ls-nui-dashboard
    ```
 
-4. **Restart server** atau jalankan resource secara manual melalui konsol:
-   ```bash
-   restart nama-resource
-   ```
+4. **Import database** (jika resource menyertakan file `.sql`) melalui phpMyAdmin, HeidiSQL, atau tools sejenis.
 
----
-
-## 🛠️ Cara Penggunaan
-
-- Sesuaikan konfigurasi pada file `config.lua` sesuai kebutuhan server.
-- Jalankan server FiveM seperti biasa menggunakan `txAdmin` atau `run.cmd` / `run.sh`.
-- Pastikan seluruh dependency resource sudah aktif sebelum menjalankan resource utama.
-- Cek dokumentasi tambahan (jika tersedia) di dalam folder `docs/` untuk panduan lebih detail.
-
-<details>
-<summary>💬 Tips Tambahan (klik untuk melihat)</summary>
-
-- Selalu backup database sebelum melakukan instalasi resource baru.
-- Gunakan environment testing/development sebelum menerapkan ke server production.
-- Periksa log konsol server untuk memastikan tidak ada error saat startup.
-
-</details>
-
----
-
-## 📦 Daftar Resource
-
-| Resource | Deskripsi | Status |
-|---|---|---|
-| `ls-ui` | Kumpulan antarmuka NUI/dashboard server | ✅ Aktif |
-| `ls-core` | Script inti dan fungsi dasar server | ✅ Aktif |
-| `ls-jobs` | Sistem pekerjaan dan ekonomi server | 🚧 Pengembangan |
-
-> 📌 Daftar resource akan terus diperbarui seiring perkembangan project.
+5. **Restart server** dan pastikan seluruh resource berjalan tanpa error pada konsol.
 
 ---
 
 ## 🤝 Kontribusi
 
-Kontribusi sangat terbuka untuk siapa saja yang ingin membantu mengembangkan project ini!
+Kontribusi dari rekan developer sangat terbuka untuk membantu pengembangan Last Semester menjadi lebih baik. Sebelum berkontribusi, mohon perhatikan alur berikut:
 
-1. **Fork** repository ini
-2. Buat **branch baru** untuk fitur/perbaikan:
+1. **Fork** repository ini.
+2. Buat branch baru untuk fitur atau perbaikan Anda:
    ```bash
-   git checkout -b fitur-baru
+   git checkout -b fitur/nama-fitur-anda
    ```
-3. **Commit** perubahan Anda:
-   ```bash
-   git commit -m "Menambahkan fitur baru"
-   ```
-4. **Push** ke branch Anda:
-   ```bash
-   git push origin fitur-baru
-   ```
-5. Buka **Pull Request** untuk direview
+3. Lakukan commit dengan pesan yang jelas dan deskriptif.
+4. Ajukan **Pull Request** ke branch utama beserta penjelasan perubahan yang dilakukan.
+5. Tunggu proses review dari tim maintainer sebelum perubahan digabungkan.
 
-> 💡 Pastikan mengikuti gaya penulisan kode yang sudah ada agar konsistensi tetap terjaga.
+> Setiap kontribusi, sekecil apa pun, adalah langkah nyata dalam membangun dunia kampus Last Semester yang lebih hidup.
 
 ---
 
-## 📜 License
+## 📜 Lisensi
 
-Project ini dilisensikan di bawah **MIT License**. Silakan lihat file [`LICENSE`](./LICENSE) untuk informasi lebih lanjut mengenai hak penggunaan.
-
----
-
-## 👏 Credits
-
-Terima kasih kepada seluruh pihak yang telah berkontribusi dalam pengembangan **Last Semester**, baik melalui kode, ide, maupun dukungan lainnya.
-
-- 💻 Developer & Maintainer: *Aku Jamal*
-- 🌐 Komunitas FiveM Indonesia
+Proyek ini dilisensikan di bawah **MIT License**. Silakan gunakan, modifikasi, dan kembangkan dengan tetap mencantumkan atribusi yang sesuai.
 
 ---
 
-## 🎓 Penutup
-
-Terima kasih telah menggunakan atau berkontribusi pada **Last Semester**! Semoga repository ini bermanfaat untuk mendukung pengembangan server FiveM Anda. Jangan ragu untuk membuka *issue* atau *pull request* jika menemukan bug atau memiliki ide pengembangan baru. 🚀
+<div align="center">
 
 ---
 
-<p align="center">Made with ❤️ for FiveM Indonesian Community</p>
+> *"Kita tidak hanya kuliah untuk lulus — kita kuliah untuk menemukan siapa diri kita sebenarnya."*
+> **— Last Semester**
+
+<sub>© 2026 Last Semester. Dibangun dengan dedikasi untuk komunitas roleplay Indonesia.</sub>
+
+</div>
